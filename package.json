@@ -1,0 +1,23 @@
+{
+  "name": "chatgpt-slack-bot",
+  "version": "1.0.0",
+  "description": "ChatGPT integration into Slack",
+  "main": "src",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Khaled Saleh",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.8.1",
+    "langchain": "^0.0.11",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2"
+  }
+}
